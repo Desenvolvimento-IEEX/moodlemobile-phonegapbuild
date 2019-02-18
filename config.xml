@@ -6,7 +6,7 @@
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>ieex</name>
+    <name>Moodle</name>
 
     <description>
         Aplicativo para acessar o AVA - Excelência Concursos
@@ -159,7 +159,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='ieex']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
