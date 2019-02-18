@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "br.com.ieex.excelenciamobile"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>Moodle</name>
+    <name>Excelência Mobile</name>
 
     <description>
-        Moodle official app
+        Aplicativo para acessar o AVA - Excelência Concursos
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://moodle.com" email="filipe.webdev@gmail.com">
+        Desenvolvimento
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
