@@ -6,13 +6,13 @@
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>Excelência Mobile</name>
+    <name>ieex</name>
 
     <description>
         Aplicativo para acessar o AVA - Excelência Concursos
     </description>
 
-    <author href="http://moodle.com" email="filipe.webdev@gmail.com">
+    <author href="http://www.ieex.com.br" email="filipe.webdev@gmail.com">
         Desenvolvimento
     </author>
 
@@ -153,13 +153,13 @@
     <gap:plugin name="cordova-plugin-statusbar" source="npm" spec="2.4.2" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.3" />
     <gap:plugin name="cordova-plugin-zip" source="npm" spec="3.1.0" />
-    <gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild" />
+    <!--<gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild" />-->
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="1.0.1" />
     <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Excelência Mobile']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
